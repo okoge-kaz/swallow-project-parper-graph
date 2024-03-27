@@ -5,9 +5,9 @@ import numpy as np
 
 # CSVファイルを読み込む
 file_paths: dict[str, str] = {
-    'Swallow 7B': 'swallow-7b.csv',
-    'Swallow 13B': 'swallow-13b.csv',
-    'Swallow 70B': 'swallow-70b.csv'
+    'Llama 2-JA-7B': 'swallow-7b.csv',
+    'Llama 2-JA-13B': 'swallow-13b.csv',
+    'Llama 2-JA-70B': 'swallow-70b.csv'
 }
 
 dataframes = {}

@@ -18,9 +18,9 @@ df["Billions of tokens"] = df["iteration"] * 4096 * 1024 / 1e9
 
 # 表の作成
 plt.figure(figsize=(10, 6))
-plt.plot(df["Billions of tokens"], df["Swallow-7B"], label="Swallow-7b", marker="o")
-plt.plot(df["Billions of tokens"], df["Swallow-13B"], label="Swallow-13b", marker="o")
-plt.plot(df["Billions of tokens"], df["Swallow-70B"], label="Swallow-70b", marker="o")
+plt.plot(df["Billions of tokens"], df["Swallow-7B"], label="Llama 2-JA-7b", marker="o")
+plt.plot(df["Billions of tokens"], df["Swallow-13B"], label="Llama 2-JA-13b", marker="o")
+plt.plot(df["Billions of tokens"], df["Swallow-70B"], label="Llama 2-JA-70b", marker="o")
 
 # グラフのタイトルと軸ラベルの設定
 plt.xlabel("Billions of tokens", fontsize=26, fontweight=900)
