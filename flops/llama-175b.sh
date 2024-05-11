@@ -6,9 +6,8 @@ python flops/llama-2-architecutre.py \
   --vocab-size 100000 \
   --batch-size 1728 \
   --seq-len 4096 \
-  --intermediate-size 32768 \
+  --intermediate-size 38464 \
   --num-query-groups 16 \
   --iteration 1 \
-  --num-attention-heads 96
-
-# 1 iteration: FLOPS: 6.75069737957956e+18
+  --num-attention-heads 96 \
+  --swiglu

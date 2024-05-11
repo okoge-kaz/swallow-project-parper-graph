@@ -2,12 +2,14 @@
 
 python flops/llama-2-architecutre.py \
   --hidden-size 8192 \
-  --num-layers 48 \
+  --num-layers 80 \
   --vocab-size 100000 \
   --batch-size 1024 \
   --seq-len 4096 \
-  --intermediate-size 22016 \
+  --intermediate-size 28672 \
   --num-query-groups 8 \
   --iteration 1 \
   --num-attention-heads 64 \
-  --swiglu
+  --swiglu \
+  --num-experts 8 \
+  --moe-router-topk 2

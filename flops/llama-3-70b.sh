@@ -9,6 +9,5 @@ python flops/llama-2-architecutre.py \
   --intermediate-size 28672 \
   --num-query-groups 8 \
   --iteration 1 \
-  --num-attention-heads 64
-
-# FLOPS: 3.97270263692211e+18
+  --num-attention-heads 64 \
+  --swiglu

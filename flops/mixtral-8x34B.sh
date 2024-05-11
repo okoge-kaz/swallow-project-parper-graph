@@ -10,4 +10,6 @@ python flops/llama-2-architecutre.py \
   --num-query-groups 8 \
   --iteration 1 \
   --num-attention-heads 64 \
-  --swiglu
+  --swiglu \
+  --num-experts 8 \
+  --moe-router-topk 2
